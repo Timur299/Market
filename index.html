@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="uz">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Bootstrap demo</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+			integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="./normalize.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="main-content">
+				<div class="navbar">
+					<ul>
+						<li><img src="./logo-logo-ozon-blue-png.webp" alt="" /></li>
+						<li>
+							<button class="menu">
+								<i
+									class="fa-solid fa-window-maximize"
+									style="font-size: 20px; position: relative; left: -16px"
+								></i
+								>Menu
+							</button>
+						</li>
+
+						<li>
+							<div class="input-group mb-3">
+								<input
+									type="text"
+									class="form-control"
+									placeholder="Ozonda Izlash"
+									aria-label="Recipient's username"
+									aria-describedby="button-addon2"
+									style="
+										height: 50px;
+										position: relative;
+										top: 6px;
+										width: 460px;
+									"
+								/>
+								<button
+									class="btn btn-outline-secondary"
+									type="button"
+									id="button-addon2"
+									style="
+										position: relative;
+										top: 6px;
+										border-radius: 0px 10px 10px 1px;
+										left: 1px;
+										background: #007eff;
+										color: #fff;
+										border: none;
+										width: 87px;
+										font-size: 21px;
+									"
+								>
+									<i class="fa-solid fa-magnifying-glass"></i>
+								</button>
+							</div>
+						</li>
+
+						<li class="ice">
+							<i
+								class="fa-regular fa-face-smile"
+								style="
+									font-size: 23px;
+									position: relative;
+									left: 5px;
+									color: rgba(18, 74, 228, 0.925);
+								"
+							></i
+							><br />Kirish
+						</li>
+						<li class="ice">
+							<i
+								class="fa-solid fa-box"
+								style="
+									font-size: 23px;
+									position: relative;
+									left: 36px;
+									color: #ff7800;
+								"
+							></i>
+							<br />
+							Buyirtma Berish
+						</li>
+						<li class="ice">
+							<i
+								class="fa-regular fa-heart"
+								style="
+									font-size: 23px;
+									position: relative;
+									left: 22px;
+									color: red;
+								"
+							></i
+							><br />Yoqganlari
+						</li>
+						<li class="ice">
+							<i
+								class="fa-solid fa-basket-shopping"
+								style="
+									font-size: 23px;
+									position: relative;
+									left: 3px;
+									color: gold;
+								"
+							></i
+							><br />Soat
+						</li>
+					</ul>
+				</div>
+
+				<div class="solo">
+					<ul>
+						<li class="boter">
+							<a href="#"
+								><i class="fa-regular fa-lightbulb"></i> Elektronika</a
+							>
+						</li>
+						<li class="boter">
+							<a href="#"
+								><i class="fa-solid fa-baby-carriage"></i> Bolalar
+								mahsulotlari</a
+							>
+						</li>
+						<li class="boter">
+							<a href="#"><i class="fa-regular fa-bookmark"></i> Kitoblar</a>
+						</li>
+						<li class="boter">
+							<a href="#"
+								><i class="fa-regular fa-star"></i> Xobbi va ijodkorlik</a
+							>
+						</li>
+						<li class="boter">
+							<a href="#"><i class="fa-solid fa-house"></i> Uy va bog</a>
+						</li>
+						<li class="boter">
+							<a href="#"
+								><i class="fa-solid fa-volleyball"></i> Sport va dam olish</a
+							>
+						</li>
+					</ul>
+				</div>
+
+				<div class="img-cara">
+					<img
+						src="./2832x600.webp"
+						alt=""
+						style="
+							width: 1400px;
+							height: 275px;
+							margin-left: -61px;
+							margin-top: 35px;
+							margin-bottom: 12px;
+							border-radius: 15px;
+						"
+					/>
+				</div>
+
+				<div class="carss">
+					<div class="card1">
+						<div
+							id="carouselExample"
+							class="carousel slide"
+							style="width: 100%"
+						>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img
+										src="./6555905263.webp"
+										class="d-block w-100"
+										alt="..."
+										width="100%"
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="./6677393560.webp"
+										class="d-block w-100"
+										alt="..."
+										width="100%"
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="./6591143222.webp"
+										class="d-block w-100"
+										alt="..."
+										width="100%"
+									/>
+								</div>
+							</div>
+							<button
+								class="carousel-control-prev"
+								type="button"
+								data-bs-target="#carouselExample"
+								data-bs-slide="prev"
+							>
+								<span
+									class="carousel-control-prev-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button
+								class="carousel-control-next"
+								type="button"
+								data-bs-target="#carouselExample"
+								data-bs-slide="next"
+							>
+								<span
+									class="carousel-control-next-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+
+						<p style="margin-top: 7px; margin-bottom: 8px">
+							<span style="color: red; font-size: 20px">447 518 UZS</span
+							><span
+								style="
+									text-decoration-line: line-through;
+									color: grey;
+									margin-left: 5px;
+									margin-right: 5px;
+								"
+								>1 254 867 UZS</span
+							><span style="color: red">-64%</span>
+						</p>
+						<p class="ho">
+							O'simliklar uchun qoplama materiali, 120 g/m2, 12 x 1,6 m, qishloq
+							xo'jaligi matolari....
+						</p>
+						<p style="margin-top: 16px; margin-bottom: 15px">
+							⭐ 4.9 ❤️ 958 ko'rib chiqilgan
+						</p>
+						<button
+							style="
+								font-size: 20px;
+								width: 100%;
+								background: #0058ff;
+								color: #fff;
+								border: none;
+								border-radius: 11px;
+								margin-top: 10px;
+								height: 42px;
+							"
+						>
+							🧺 Soatga
+						</button>
+					</div>
+
+					<div class="card1">
+						<div
+							id="carouselExampleFade"
+							class="carousel slide carousel-fade"
+							style="width: 100%"
+						>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img
+										src="./6822904285.webp"
+										class="d-block w-100"
+										alt="..."
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="./6851056580.webp"
+										class="d-block w-100"
+										alt="..."
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="./7062905082.webp"
+										class="d-block w-100"
+										alt="..."
+									/>
+								</div>
+							</div>
+							<button
+								class="carousel-control-prev"
+								type="button"
+								data-bs-target="#carouselExampleFade"
+								data-bs-slide="prev"
+							>
+								<span
+									class="carousel-control-prev-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button
+								class="carousel-control-next"
+								type="button"
+								data-bs-target="#carouselExampleFade"
+								data-bs-slide="next"
+							>
+								<span
+									class="carousel-control-next-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+
+						<p style="margin-top: 7px; margin-bottom: 8px">
+							<span style="color: red; font-size: 20px">447 518 UZS</span
+							><span
+								style="
+									text-decoration-line: line-through;
+									color: grey;
+									margin-left: 5px;
+									margin-right: 5px;
+								"
+								>1 254 867 UZS</span
+							><span style="color: red">-64%</span>
+						</p>
+						<p class="ho">
+							O'simliklar uchun qoplama materiali, 120 g/m2, 12 x 1,6 m, qishloq
+							xo'jaligi matolari....
+						</p>
+						<p style="margin-top: 16px; margin-bottom: 15px">
+							⭐ 4.9 ❤️ 958 ko'rib chiqilgan
+						</p>
+						<button
+							style="
+								font-size: 20px;
+								width: 100%;
+								background: #0058ff;
+								color: #fff;
+								border: none;
+								border-radius: 11px;
+								margin-top: 10px;
+								height: 42px;
+							"
+						>
+							🧺 Soatga
+						</button>
+					</div>
+
+					<div class="card1">
+						<img src="./7082201812.webp" alt="" width="100%" />
+						<p style="margin-top: 7px; margin-bottom: 8px">
+							<span style="color: red; font-size: 20px">447 518 UZS</span
+							><span
+								style="
+									text-decoration-line: line-through;
+									color: grey;
+									margin-left: 5px;
+									margin-right: 5px;
+								"
+								>1 254 867 UZS</span
+							><span style="color: red">-64%</span>
+						</p>
+						<p class="ho">
+							O'simliklar uchun qoplama materiali, 120 g/m2, 12 x 1,6 m, qishloq
+							xo'jaligi matolari....
+						</p>
+						<p style="margin-top: 16px; margin-bottom: 15px">
+							⭐ 4.9 ❤️ 958 ko'rib chiqilgan
+						</p>
+						<button
+							style="
+								font-size: 20px;
+								width: 100%;
+								background: #0058ff;
+								color: #fff;
+								border: none;
+								border-radius: 11px;
+								margin-top: 10px;
+								height: 42px;
+							"
+						>
+							🧺 Soatga
+						</button>
+					</div>
+
+					<div class="card1">
+						<div
+							id="carouselExampleAutoplaying"
+							class="carousel slide"
+							data-bs-ride="carousel"
+							style="width: 100%"
+						>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img
+										src="./6964554528.webp"
+										class="d-block w-100"
+										alt="..."
+										width="100%"
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="./7040952347.webp"
+										class="d-block w-100"
+										alt="..."
+										width="100%"
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="./6972828164.webp"
+										class="d-block w-100"
+										alt="..."
+										width="100%"
+									/>
+								</div>
+							</div>
+							<button
+								class="carousel-control-prev"
+								type="button"
+								data-bs-target="#carouselExampleAutoplaying"
+								data-bs-slide="prev"
+							>
+								<span
+									class="carousel-control-prev-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button
+								class="carousel-control-next"
+								type="button"
+								data-bs-target="#carouselExampleAutoplaying"
+								data-bs-slide="next"
+							>
+								<span
+									class="carousel-control-next-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+
+						<p style="margin-top: 7px; margin-bottom: 8px">
+							<span style="color: red; font-size: 20px">447 518 UZS</span
+							><span
+								style="
+									text-decoration-line: line-through;
+									color: grey;
+									margin-left: 5px;
+									margin-right: 5px;
+								"
+								>1 254 867 UZS</span
+							><span style="color: red">-64%</span>
+						</p>
+						<p class="ho">
+							O'simliklar uchun qoplama materiali, 120 g/m2, 12 x 1,6 m, qishloq
+							xo'jaligi matolari....
+						</p>
+						<p style="margin-top: 16px; margin-bottom: 15px">
+							⭐ 4.9 ❤️ 958 ko'rib chiqilgan
+						</p>
+						<button
+							style="
+								font-size: 20px;
+								width: 100%;
+								background: #0058ff;
+								color: #fff;
+								border: none;
+								border-radius: 11px;
+								margin-top: 10px;
+								height: 42px;
+							"
+						>
+							🧺 Soatga
+						</button>
+					</div>
+
+					<div class="card1">
+						<img src="./6964554411.webp" alt="" width="100%" />
+						<p style="margin-top: 7px; margin-bottom: 8px">
+							<span style="color: red; font-size: 20px">447 518 UZS</span
+							><span
+								style="
+									text-decoration-line: line-through;
+									color: grey;
+									margin-left: 5px;
+									margin-right: 5px;
+								"
+								>1 254 867 UZS</span
+							><span style="color: red">-64%</span>
+						</p>
+						<p class="ho">
+							O'simliklar uchun qoplama materiali, 120 g/m2, 12 x 1,6 m, qishloq
+							xo'jaligi matolari....
+						</p>
+						<p style="margin-top: 16px; margin-bottom: 15px">
+							⭐ 4.9 ❤️ 958 ko'rib chiqilgan
+						</p>
+						<button
+							style="
+								font-size: 20px;
+								width: 100%;
+								background: #0058ff;
+								color: #fff;
+								border: none;
+								border-radius: 11px;
+								margin-top: 10px;
+								height: 42px;
+							"
+						>
+							🧺 Soatga
+						</button>
+					</div>
+				</div>
+
+				<div class="carss">
+					<div class="card1">
+						<div
+							id="carouselExampleAutoplaying"
+							class="carousel slide"
+							data-bs-ride="carousel"
+							style="width: 100%"
+						>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img
+										src="./6993584205.webp"
+										class="d-block w-100"
+										alt="..."
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="./6673025479.webp"
+										class="d-block w-100"
+										alt="..."
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="./6851056580.webp"
+										class="d-block w-100"
+										alt="..."
+									/>
+								</div>
+							</div>
+							<button
+								class="carousel-control-prev"
+								type="button"
+								data-bs-target="#carouselExampleAutoplaying"
+								data-bs-slide="prev"
+							>
+								<span
+									class="carousel-control-prev-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button
+								class="carousel-control-next"
+								type="button"
+								data-bs-target="#carouselExampleAutoplaying"
+								data-bs-slide="next"
+							>
+								<span
+									class="carousel-control-next-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+
+						<p style="margin-top: 7px; margin-bottom: 8px">
+							<span style="color: red; font-size: 20px">447 518 UZS</span
+							><span
+								style="
+									text-decoration-line: line-through;
+									color: grey;
+									margin-left: 5px;
+									margin-right: 5px;
+								"
+								>1 254 867 UZS</span
+							><span style="color: red">-64%</span>
+						</p>
+						<p class="ho">
+							O'simliklar uchun qoplama materiali, 120 g/m2, 12 x 1,6 m, qishloq
+							xo'jaligi matolari....
+						</p>
+						<p style="margin-top: 16px; margin-bottom: 15px">
+							⭐ 4.9 ❤️ 958 ko'rib chiqilgan
+						</p>
+						<button
+							style="
+								font-size: 20px;
+								width: 100%;
+								background: #0058ff;
+								color: #fff;
+								border: none;
+								border-radius: 11px;
+								margin-top: 10px;
+								height: 42px;
+							"
+						>
+							🧺 Soatga
+						</button>
+					</div>
+
+					<div class="card1">
+						<img src="./6673025479.webp" alt="" width="100%" />
+						<p style="margin-top: 7px; margin-bottom: 8px">
+							<span style="color: red; font-size: 20px">447 518 UZS</span
+							><span
+								style="
+									text-decoration-line: line-through;
+									color: grey;
+									margin-left: 5px;
+									margin-right: 5px;
+								"
+								>1 254 867 UZS</span
+							><span style="color: red">-64%</span>
+						</p>
+						<p class="ho">
+							O'simliklar uchun qoplama materiali, 120 g/m2, 12 x 1,6 m, qishloq
+							xo'jaligi matolari....
+						</p>
+						<p style="margin-top: 16px; margin-bottom: 15px">
+							⭐ 4.9 ❤️ 958 ko'rib chiqilgan
+						</p>
+						<button
+							style="
+								font-size: 20px;
+								width: 100%;
+								background: #0058ff;
+								color: #fff;
+								border: none;
+								border-radius: 11px;
+								margin-top: 10px;
+								height: 42px;
+							"
+						>
+							🧺 Soatga
+						</button>
+					</div>
+
+					<div class="card1">
+						<div
+							id="carouselExampleAutoplaying"
+							class="carousel slide"
+							data-bs-ride="carousel"
+							style="width: 100%"
+						>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img
+										src="./7020877227.webp"
+										class="d-block w-100"
+										alt="..."
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="./6964554411.webp"
+										class="d-block w-100"
+										alt="..."
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="./6964554528.webp"
+										class="d-block w-100"
+										alt="..."
+									/>
+								</div>
+							</div>
+							<button
+								class="carousel-control-prev"
+								type="button"
+								data-bs-target="#carouselExampleAutoplaying"
+								data-bs-slide="prev"
+							>
+								<span
+									class="carousel-control-prev-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button
+								class="carousel-control-next"
+								type="button"
+								data-bs-target="#carouselExampleAutoplaying"
+								data-bs-slide="next"
+							>
+								<span
+									class="carousel-control-next-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+
+						<p style="margin-top: 7px; margin-bottom: 8px">
+							<span style="color: red; font-size: 20px">447 518 UZS</span
+							><span
+								style="
+									text-decoration-line: line-through;
+									color: grey;
+									margin-left: 5px;
+									margin-right: 5px;
+								"
+								>1 254 867 UZS</span
+							><span style="color: red">-64%</span>
+						</p>
+						<p class="ho">
+							O'simliklar uchun qoplama materiali, 120 g/m2, 12 x 1,6 m, qishloq
+							xo'jaligi matolari....
+						</p>
+						<p style="margin-top: 16px; margin-bottom: 15px">
+							⭐ 4.9 ❤️ 958 ko'rib chiqilgan
+						</p>
+						<button
+							style="
+								font-size: 20px;
+								width: 100%;
+								background: #0058ff;
+								color: #fff;
+								border: none;
+								border-radius: 11px;
+								margin-top: 10px;
+								height: 42px;
+							"
+						>
+							🧺 Soatga
+						</button>
+					</div>
+
+					<div class="card1">
+						<img src="./7038281590.webp" alt="" width="100%" />
+						<p style="margin-top: 7px; margin-bottom: 8px">
+							<span style="color: red; font-size: 20px">447 518 UZS</span
+							><span
+								style="
+									text-decoration-line: line-through;
+									color: grey;
+									margin-left: 5px;
+									margin-right: 5px;
+								"
+								>1 254 867 UZS</span
+							><span style="color: red">-64%</span>
+						</p>
+						<p class="ho">
+							O'simliklar uchun qoplama materiali, 120 g/m2, 12 x 1,6 m, qishloq
+							xo'jaligi matolari....
+						</p>
+						<p style="margin-top: 16px; margin-bottom: 15px">
+							⭐ 4.9 ❤️ 958 ko'rib chiqilgan
+						</p>
+						<button
+							style="
+								font-size: 20px;
+								width: 100%;
+								background: #0058ff;
+								color: #fff;
+								border: none;
+								border-radius: 11px;
+								margin-top: 10px;
+								height: 42px;
+							"
+						>
+							🧺 Soatga
+						</button>
+					</div>
+
+					<div class="card1">
+						<div id="carouselExampleFade" class="carousel slide carousel-fade">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img
+										src="./7062905082.webp"
+										class="d-block w-100"
+										alt="..."
+										width="100%"
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="./6673025479.webp"
+										class="d-block w-100"
+										alt="..."
+										width="100%"
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="./6972828164.webp"
+										class="d-block w-100"
+										alt="..."
+										width="100%"
+									/>
+								</div>
+							</div>
+							<button
+								class="carousel-control-prev"
+								type="button"
+								data-bs-target="#carouselExampleFade"
+								data-bs-slide="prev"
+							>
+								<span
+									class="carousel-control-prev-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button
+								class="carousel-control-next"
+								type="button"
+								data-bs-target="#carouselExampleFade"
+								data-bs-slide="next"
+							>
+								<span
+									class="carousel-control-next-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+
+						<p style="margin-top: 7px; margin-bottom: 8px">
+							<span style="color: red; font-size: 20px">447 518 UZS</span
+							><span
+								style="
+									text-decoration-line: line-through;
+									color: grey;
+									margin-left: 5px;
+									margin-right: 5px;
+								"
+								>1 254 867 UZS</span
+							><span style="color: red">-64%</span>
+						</p>
+						<p class="ho">
+							O'simliklar uchun qoplama materiali, 120 g/m2, 12 x 1,6 m, qishloq
+							xo'jaligi matolari....
+						</p>
+						<p style="margin-top: 16px; margin-bottom: 15px">
+							⭐ 4.9 ❤️ 958 ko'rib chiqilgan
+						</p>
+						<button
+							style="
+								font-size: 20px;
+								width: 100%;
+								background: #0058ff;
+								color: #fff;
+								border: none;
+								border-radius: 11px;
+								margin-top: 10px;
+								height: 42px;
+							"
+						>
+							🧺 Soatga
+						</button>
+					</div>
+				</div>
+
+				<div class="carss">
+					<div class="card1">
+						<img src="./7044396607.webp" alt="" width="100%" />
+						<p style="margin-top: 7px; margin-bottom: 8px">
+							<span style="color: red; font-size: 20px">447 518 UZS</span
+							><span
+								style="
+									text-decoration-line: line-through;
+									color: grey;
+									margin-left: 5px;
+									margin-right: 5px;
+								"
+								>1 254 867 UZS</span
+							><span style="color: red">-64%</span>
+						</p>
+						<p class="ho">
+							O'simliklar uchun qoplama materiali, 120 g/m2, 12 x 1,6 m, qishloq
+							xo'jaligi matolari....
+						</p>
+						<p style="margin-top: 16px; margin-bottom: 15px">
+							⭐ 4.9 ❤️ 958 ko'rib chiqilgan
+						</p>
+						<button
+							style="
+								font-size: 20px;
+								width: 100%;
+								background: #0058ff;
+								color: #fff;
+								border: none;
+								border-radius: 11px;
+								margin-top: 10px;
+								height: 42px;
+							"
+						>
+							🧺 Soatga
+						</button>
+					</div>
+
+					<div class="card1">
+						<div id="carouselExampleFade" class="carousel slide carousel-fade">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img
+										src="./6591143222.webp"
+										class="d-block w-100"
+										alt="..."
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="./6972828164.webp"
+										class="d-block w-100"
+										alt="..."
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="./7093358293.webp"
+										class="d-block w-100"
+										alt="..."
+									/>
+								</div>
+							</div>
+							<button
+								class="carousel-control-prev"
+								type="button"
+								data-bs-target="#carouselExampleFade"
+								data-bs-slide="prev"
+							>
+								<span
+									class="carousel-control-prev-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button
+								class="carousel-control-next"
+								type="button"
+								data-bs-target="#carouselExampleFade"
+								data-bs-slide="next"
+							>
+								<span
+									class="carousel-control-next-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+
+						<p style="margin-top: 7px; margin-bottom: 8px">
+							<span style="color: red; font-size: 20px">447 518 UZS</span
+							><span
+								style="
+									text-decoration-line: line-through;
+									color: grey;
+									margin-left: 5px;
+									margin-right: 5px;
+								"
+								>1 254 867 UZS</span
+							><span style="color: red">-64%</span>
+						</p>
+						<p class="ho">
+							O'simliklar uchun qoplama materiali, 120 g/m2, 12 x 1,6 m, qishloq
+							xo'jaligi matolari....
+						</p>
+						<p style="margin-top: 16px; margin-bottom: 15px">
+							⭐ 4.9 ❤️ 958 ko'rib chiqilgan
+						</p>
+						<button
+							style="
+								font-size: 20px;
+								width: 100%;
+								background: #0058ff;
+								color: #fff;
+								border: none;
+								border-radius: 11px;
+								margin-top: 10px;
+								height: 42px;
+							"
+						>
+							🧺 Soatga
+						</button>
+					</div>
+
+					<div class="card1">
+						<img src="./6440215189.webp" alt="" width="100%" />
+						<p style="margin-top: 7px; margin-bottom: 8px">
+							<span style="color: red; font-size: 20px">447 518 UZS</span
+							><span
+								style="
+									text-decoration-line: line-through;
+									color: grey;
+									margin-left: 5px;
+									margin-right: 5px;
+								"
+								>1 254 867 UZS</span
+							><span style="color: red">-64%</span>
+						</p>
+						<p class="ho">
+							O'simliklar uchun qoplama materiali, 120 g/m2, 12 x 1,6 m, qishloq
+							xo'jaligi matolari....
+						</p>
+						<p style="margin-top: 16px; margin-bottom: 15px">
+							⭐ 4.9 ❤️ 958 ko'rib chiqilgan
+						</p>
+						<button
+							style="
+								font-size: 20px;
+								width: 100%;
+								background: #0058ff;
+								color: #fff;
+								border: none;
+								border-radius: 11px;
+								margin-top: 10px;
+								height: 42px;
+							"
+						>
+							🧺 Soatga
+						</button>
+					</div>
+
+					<div class="card1">
+						<img src="./6591143222.webp" alt="" width="100%" />
+						<p style="margin-top: 7px; margin-bottom: 8px">
+							<span style="color: red; font-size: 20px">447 518 UZS</span
+							><span
+								style="
+									text-decoration-line: line-through;
+									color: grey;
+									margin-left: 5px;
+									margin-right: 5px;
+								"
+								>1 254 867 UZS</span
+							><span style="color: red">-64%</span>
+						</p>
+						<p class="ho">
+							O'simliklar uchun qoplama materiali, 120 g/m2, 12 x 1,6 m, qishloq
+							xo'jaligi matolari....
+						</p>
+						<p style="margin-top: 16px; margin-bottom: 15px">
+							⭐ 4.9 ❤️ 958 ko'rib chiqilgan
+						</p>
+						<button
+							style="
+								font-size: 20px;
+								width: 100%;
+								background: #0058ff;
+								color: #fff;
+								border: none;
+								border-radius: 11px;
+								margin-top: 10px;
+								height: 42px;
+							"
+						>
+							🧺 Soatga
+						</button>
+					</div>
+
+					<div class="card1">
+						<div
+							id="carouselExampleInterval"
+							class="carousel slide"
+							data-bs-ride="carousel"
+						>
+							<div class="carousel-inner">
+								<div class="carousel-item active" data-bs-interval="10000">
+									<img
+										src="./6822904285.webp"
+										class="d-block w-100"
+										alt="..."
+									/>
+								</div>
+								<div class="carousel-item" data-bs-interval="2000">
+									<img
+										src="./6591143222.webp"
+										class="d-block w-100"
+										alt="..."
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="./6669762235.webp"
+										class="d-block w-100"
+										alt="..."
+									/>
+								</div>
+							</div>
+							<button
+								class="carousel-control-prev"
+								type="button"
+								data-bs-target="#carouselExampleInterval"
+								data-bs-slide="prev"
+							>
+								<span
+									class="carousel-control-prev-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button
+								class="carousel-control-next"
+								type="button"
+								data-bs-target="#carouselExampleInterval"
+								data-bs-slide="next"
+							>
+								<span
+									class="carousel-control-next-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+
+						<p style="margin-top: 7px; margin-bottom: 8px">
+							<span style="color: red; font-size: 20px">447 518 UZS</span
+							><span
+								style="
+									text-decoration-line: line-through;
+									color: grey;
+									margin-left: 5px;
+									margin-right: 5px;
+								"
+								>1 254 867 UZS</span
+							><span style="color: red">-64%</span>
+						</p>
+						<p class="ho">
+							O'simliklar uchun qoplama materiali, 120 g/m2, 12 x 1,6 m, qishloq
+							xo'jaligi matolari....
+						</p>
+						<p style="margin-top: 16px; margin-bottom: 15px">
+							⭐ 4.9 ❤️ 958 ko'rib chiqilgan
+						</p>
+						<button
+							style="
+								font-size: 20px;
+								width: 100%;
+								background: #0058ff;
+								color: #fff;
+								border: none;
+								border-radius: 11px;
+								margin-top: 10px;
+								height: 42px;
+							"
+						>
+							🧺 Soatga
+						</button>
+					</div>
+				</div>
+
+				<div class="box12" style="margin-top: 60px">
+					<div class="box13">
+						<img src="./7.webp" alt="" />
+					</div>
+					<div class="box14">
+						<img src="./knigi.webp" alt="" />
+					</div>
+					<div class="box13">
+						<img src="./hobbi.webp" alt="" />
+					</div>
+				</div>
+
+				<div class="box12">
+					<div class="box13">
+						<img src="./1.webp" alt="" />
+					</div>
+					<div class="box14">
+						<img src="./3.webp" alt="" />
+					</div>
+					<div class="box13">
+						<img src="./6.webp" alt="" />
+					</div>
+				</div>
+
+				<div class="box12" style="margin-bottom: 35px">
+					<div class="box13">
+						<img src="./9.webp" alt="" />
+					</div>
+					<div class="box14">
+						<img src="./8.webp" alt="" />
+					</div>
+					<div class="box13">
+						<img src="./5_1.webp" alt="" />
+					</div>
+				</div>
+
+				<div class="menu56">
+					<img
+						src="./1416x100x2-2_2.webp"
+						alt=""
+						style="
+							margin-top: 70px;
+							margin-left: -55px;
+							width: 1400px;
+							border-radius: 10px;
+							margin-bottom: 50px;
+						"
+					/>
+				</div>
+
+				<div
+					class="ity"
+					style="
+						background-color: #f5f7fa;
+						width: 1480px;
+						position: relative;
+						left: -90px;
+						height: 750px;
+					"
+				>
+					<div class="nabe">
+						<ul style="display: flex">
+							<li style="color: #000; font-size: 30px; font-weight: bold">
+								Ozon Job
+							</li>
+							<li><i class="fa-solid fa-computer"></i> IT</li>
+							<li><i class="fa-solid fa-building"></i> Ofis</li>
+							<li><i class="fa-solid fa-wallet"></i> Fintex</li>
+							<li><i class="fa-solid fa-apple-whole"></i> Yangi</li>
+							<li><i class="fa-solid fa-truck"></i> Logistika</li>
+							<li><i class="fa-solid fa-dolly"></i> Omborda ishlash</li>
+							<li><i class="fa-solid fa-calendar"></i> Voqealar</li>
+							<li><i class="fa-solid fa-handshake"></i> Qo'llab-quvvatlash</li>
+						</ul>
+					</div>
+
+					<img
+						src="./Снимок экрана 2024-08-08 192555.png"
+						alt=""
+						style="margin-top: 70px; margin-left: 25px"
+					/>
+
+					<div
+						class="but"
+						style="
+							display: flex;
+							position: relative;
+							margin-left: 570px;
+							top: -480px;
+						"
+					>
+						<div class="ku" style="margin-right: 150px">
+							<p style="color: #000">Об Ozon / About Ozon</p>
+							<p style="color: grey; margin-top: -10px">Ozon Brendi</p>
+							<p style="color: grey; margin-top: -10px">Tafsilotlar</p>
+							<p style="color: grey; margin-top: -10px">
+								Ommaviy axborot vositalari uchun ma'lumot
+							</p>
+							<p style="color: grey; margin-top: -10px">Ozon Rossiya</p>
+							<p style="color: grey; margin-top: -10px">Ozon Belarus</p>
+							<p style="color: grey; margin-top: -10px">Ozon Qozog'iston</p>
+							<p style="color: grey; margin-top: -10px">Ozon Armaniston</p>
+						</div>
+
+						<div class="lio" style="margin-right: 100px">
+							<p style="color: #000">Ozon bilan pul ishlang</p>
+							<p style="color: grey; margin-top: -10px">Sotuvchi bo'lish</p>
+							<p style="color: grey; margin-top: -10px">
+								Berish punktini oching
+							</p>
+						</div>
+
+						<div class="nmvc">
+							<p style="color: rgb(0, 0, 0); margin-top: -10px">Yordam</p>
+							<p style="color: grey; margin-top: -10px">
+								Qanday qilib buyurtma berish kerak
+							</p>
+							<p style="color: grey; margin-top: -10px">To'lov</p>
+							<p style="color: grey; margin-top: -10px">Yetkazib berish</p>
+							<p style="color: grey; margin-top: -10px">Tovarlarni qaytarish</p>
+							<p style="color: grey; margin-top: -10px">Kontaktlar</p>
+							<p style="color: grey; margin-top: -10px">Xavfsizlik</p>
+							<p style="color: grey; margin-top: -10px">
+								Muvofiqlik ishonch telefoni
+							</p>
+						</div>
+					</div>
+
+					<div
+						class="kjh"
+						style="width: 440px; position: relative; top: -440px; left: 570px"
+					>
+						<p>
+							© 1998 – 2024 "Internet Solutions" MCHJ (Ozon kompaniyalar
+							guruhiga kiradi; "ozon Holding" MCHJ sho'ba korxonasi) barcha
+							huquqlar himoyalangan.
+						</p>
+
+						<div class="b" style="display: flex">
+							<div class="lo1">
+								<i class="fa-brands fa-instagram"></i>
+							</div>
+
+							<div class="ds">
+								<i class="fa-brands fa-telegram"></i>
+							</div>
+
+							<div class="kl1">
+								<i class="fa-brands fa-youtube"></i>
+							</div>
+
+							<div class="j5">
+								<i class="fa-brands fa-facebook"></i>
+							</div>
+
+							<p
+								style="
+									font-size: 45px;
+									color: blue;
+									border: none;
+									margin-left: 20px;
+									margin-right: -210px;
+									display: flex;
+								"
+							>
+								←→
+							</p>
+							<div
+								class="njdr"
+								style="position: relative; left: 134px; width: 0px"
+							>
+								<button
+									style="
+										position: relative;
+										top: 10px;
+										left: 110px;
+										color: #fff;
+										background: blue;
+										border: none;
+										border-radius: 10px;
+										width: 154px;
+										height: 60px;
+									"
+									onclick="prompt('Bu sayt sizga foydali bo`la oldimi ⭐❤️⭐ ')"
+								>
+									E`tibor Uchun Rahmat
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="./timur.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
